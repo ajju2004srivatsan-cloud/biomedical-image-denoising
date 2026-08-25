@@ -1,0 +1,33 @@
+{
+  "rician": {
+    "Non-Local Means": 31.18,
+    "Gaussian": 23.18,
+    "Median": 25.7
+  },
+  "salt_pepper": {
+    "Median": 21.95,
+    "Gaussian": 23.3,
+    "Bilateral": 23.28,
+    "Non-Local Means": 31.66,
+    "Wiener": 22.99
+  },
+  "gaussian": {
+    "Gaussian (5x5)": 22.25,
+    "Median (5x5)": 23.78,
+    "Bilateral (d=9)": 23.68,
+    "NLM (h=10)": 32.99,
+    "Wiener (5x5)": 20.59
+  },
+  "periodic": {
+    "Median (7x7)": 21.8,
+    "Bilateral (d=15)": 21.65,
+    "Gaussian + Sharpen": 22.15,
+    "Mean + Median": 20.3
+  },
+  "speckle": {
+    "Median (5x5)": 25.74,
+    "Hybrid (Med+Bilat)": 23.55,
+    "Wiener": 25.14,
+    "Mean Shift": 24.08
+  }
+}
