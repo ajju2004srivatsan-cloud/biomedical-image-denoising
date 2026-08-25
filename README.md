@@ -6,6 +6,10 @@
 
 This repository packages a complete, runnable study: synthetic medical phantoms, noise models, classical OpenCV / scikit-image filters, quantitative PSNR comparisons, and saved output grids.
 
+**Coursework artifacts included**
+- Full assignment PDF: [`docs/19ECE455_A2_Biomedical_Signal_Processing.pdf`](docs/19ECE455_A2_Biomedical_Signal_Processing.pdf)
+- Original figures from the report: [`data/assignment_figures/`](data/assignment_figures/) (noisy inputs + filter/enhancement result panels)
+
 ---
 
 ## What this study covers
@@ -70,14 +74,11 @@ outputs/metrics.json    # PSNR (dB) vs clean phantom for each filter
 ## Project layout
 
 ```
-src/
-  phantoms.py     # synthetic brain/bone phantoms + noise models
-  denoise.py      # filter pipelines per noise type
-  enhance.py      # point processing & intensity transforms
-  utils.py        # PSNR, I/O, comparison grids
-  run_study.py    # end-to-end experiment runner
-outputs/          # generated figures (committed for the portfolio)
-data/phantoms/    # generated inputs
+docs/                                    # full assignment PDF
+data/assignment_figures/                 # original PDF/report images
+data/phantoms/                           # synthetic clean/noisy inputs
+src/                                     # reproducible Python pipelines
+outputs/denoising/  outputs/enhancement/ # regenerated comparison grids
 ```
 
 ---
